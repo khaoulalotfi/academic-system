@@ -17,7 +17,7 @@ export default async function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="container mx-auto max-w-screen-xl">
+      <body className="container mx-auto max-w-screen-xl px-4">
         <StoreProvider>
           <Header />
           {children}
